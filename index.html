@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме Татьяны Устименко</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #f2f2f2;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .resume-container {
+            width: 900px;
+            background-color: #ffffff;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .sidebar {
+            background-color: #f2f2f9;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            object-fit: cover;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            font-size: 14px;
+            margin-bottom: 15px;
+        }
+        .contact-info p {
+            margin: 5px 0;
+        }
+        .content-section {
+            padding: 0 20px;
+        }
+        .section-title {
+            font-size: 20px;
+            color: #333;
+            font-weight: bold;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+        }
+        .experience, .education {
+            margin-bottom: 15px;
+        }
+        .position, .institution {
+            font-weight: bold;
+            font-size: 16px;
+            color: #555;
+        }
+        .details {
+            font-size: 14px;
+            color: #666;
+        }
+        .skills, .languages {
+            margin-top: 20px;
+        }
+        .skills-list, .languages-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill, .language {
+            background-color: #e0e0e0;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <!-- Левая часть резюме -->
+        <div class="sidebar">
+            <img src="./photo.jpg" alt="Татьяна Устименко" class="profile-pic">
+            <div class="name">Татьяна Устименко</div>
+            <div class="contact-info">
+                <p>Email: tanushka197512@gmail.com</p>
+                <p>Телефон: +4888608499</p>
+                <p>Одесса, Украина</p>
+                <p>Пол: Женский</p>
+                <p>Дата рождения: 15 сентября 1975 г.</p>
+                <p>Семейное положение: В разводе</p>
+            </div>
+        </div>
+        
+        <!-- Правая часть резюме -->
+        <div class="content-section">
+            <div class="education">
+                <div class="section-title">Образование</div>
+                <div class="institution">ОНПУ, Одесса</div>
+                <div class="details">Менеджмент Внешнеэкономической деятельности <br> сент. 2006 - май 2011</div>
+            </div>
+            
+            <div class="experience">
+                <div class="section-title">Место работы</div>
+                <div class="position">Брокер в АН Домстар, Одесса</div>
+                <div class="details">
+                    май 2018 - февр. 2022<br>
+                    Продажа/покупка недвижимости, встречи, консультации, холодные звонки, работа с горячими лидами, рекрутинг, прямые продажи
+                </div>
+                
+                <div class="position">Риелтор, АН Премьер, Одесса</div>
+                <div class="details">
+                    апр. 2016 - июнь 2018<br>
+                    Работа с клиентами, обработка заявок, продажа вторичной недвижимости, новострои
+                </div>
+            </div>
+            
+            <div class="skills">
+                <div class="section-title">Навыки</div>
+                <div class="skills-list">
+                    <div class="skill">Коммуникативные навыки</div>
+                    <div class="skill">Умение слушать</div>
+                    <div class="skill">Навыки продаж</div>
+                    <div class="skill">Умение убеждать</div>
+                    <div class="skill">Стрессоустойчивость</div>
+                    <div class="skill">Организованность</div>
+                    <div class="skill">Анализировать</div>
+                    <div class="skill">Настойчивость</div>
+                    <div class="skill">CRM системы</div>
+                </div>
+            </div>
+
+            <div class="languages">
+                <div class="section-title">Языки</div>
+                <div class="languages-list">
+                    <div class="language">Украинский</div>
+                    <div class="language">Русский</div>
+                    <div class="language">Разговорный английский</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
